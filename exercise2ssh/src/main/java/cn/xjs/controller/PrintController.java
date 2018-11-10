@@ -20,6 +20,10 @@ public class PrintController {
 		
 		System.out.println(6);
 		
+		System.out.println(7);
+		
+		System.err.println(8);
+		
 		return "/index.jsp";
 	}
 	
