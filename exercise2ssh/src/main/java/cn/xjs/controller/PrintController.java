@@ -17,6 +17,9 @@ public class PrintController {
 		
 		System.out.println("5");
 		
+		
+		System.out.println(6);
+		
 		return "/index.jsp";
 	}
 	
