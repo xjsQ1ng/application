@@ -12,6 +12,7 @@ public class PrintController {
 	public String hello(@PathVariable String messager){
 		
 		System.out.println(messager + "shh2222" + "2" + "1" + "1" + "3");
+		System.out.println("2");
 		
 		return "/index.jsp";
 	}
