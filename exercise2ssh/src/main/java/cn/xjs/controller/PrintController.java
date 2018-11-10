@@ -11,7 +11,7 @@ public class PrintController {
 	@RequestMapping("/print/{messager}")
 	public String hello(@PathVariable String messager){
 		
-		System.out.println(messager);
+		System.out.println(messager + "ssh2222");
 		
 		return "/index.jsp";
 	}
