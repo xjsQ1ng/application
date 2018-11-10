@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="cn.gzsxt.mapper.StudentMapper">
+
+	<insert id="insert" useGeneratedKeys="true" keyColumn="student_id" keyProperty="studentId">
+		insert into t_student(student_name,student_pwd) values(#{studentName},#{studentPwd})
+	</insert>
+
+</mapper>
