@@ -14,13 +14,6 @@ public class PrintController {
 		System.out.println(messager + "shh2222" + "2" + "1" + "1" + "3");
 		System.out.println("2");
 		
-		
-		
-		
-		for (int i = 0; i < 10; i++) {
-			System.out.println();
-		}
-		
 		return "/index.jsp";
 	}
 	
